@@ -1,0 +1,55 @@
+-> que clase implementa comparable?
+	Nodo
+
+-> estructura para a frontera de A*?
+	Cola de prioridad de nodos
+
+-> como saber cantos nodos se explorou?
+	Sumar 1 cando añadas a frontera ou size de explorados
+
+-> que funcion elimina o primeiro dunha cola?
+	Poll
+
+-> metodo toString da clase nodo?
+	public String toString() {
+     		return "(" + estado +
+                		", " + accion +
+                 		", " + coste +
+                		", " + f +
+                		')';
+    	}
+
+-> en donde se deberian almacenar las variables de la busqueda en profundidad?
+
+-> con que se podria mejorar el algoritmo backtracking?
+	A*
+
+-> precondicion de una accion?
+	esAplicable
+
+-> es profundidad bueno para este problema?
+	no
+
+-> accion puede ser meter un numero x en unas coordenadas?
+	si
+
+-> si has implementado profundidad, que tienes que cambiar para implementar A*?
+
+-> hai que cambiar la clase nodo dependiendo de la busqueda (anchura, profundidad, A*)?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
